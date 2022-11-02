@@ -1,0 +1,55 @@
+//colors
+$Pink: hsl(322, 100%, 66%);
+$Very-Pale-Cyan: hsl(193, 100%, 96%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Grayish-Blue: hsl(208, 11%, 55%);
+$white-clr: #fff;
+$shadow-clr-pink: hsl(322, 100%, 85%);
+$shadow-clr-grey: hsl(0, 0%, 90%);
+
+//fonts
+$font-heading: "Poppins", sans-serif;
+$font-size-base: 1.8rem;
+// $font-size-h1: clamp(
+//   calc($font-size-base + 1rem),
+//   2.5vw,
+//   calc($font-size-base + 2.5rem)
+// );
+// $font-size-h3: clamp(
+//   calc($font-size-base + 0.4rem),
+//   0.5%,
+//   calc($font-size-base + 5rem)
+// );
+// $font-size-p-header: clamp(
+//   calc($font-size-base - 0.15rem),
+//   0.5vw,
+//   calc($font-size-base + 0.5rem)
+// );
+// $font-size-p-articles: clamp(
+//   calc($font-size-base - 0.3rem),
+//   0.3vw,
+//   calc($font-size-base + 0.3rem)
+// );
+
+$font-size-h1: clamp(
+  calc($font-size-base + 1rem),
+  3vw,
+  calc($font-size-base + 4rem)
+);
+$font-size-h3: clamp(
+  calc($font-size-base + 0.5rem),
+  1.7vw,
+  calc($font-size-base + 3rem)
+);
+$font-size-p-header: clamp(
+  calc($font-size-base),
+  1vw,
+  calc($font-size-base + 0.5rem)
+);
+$font-size-p-articles: clamp(
+  calc($font-size-base - 0.2rem),
+  0.9vw,
+  calc($font-size-base + 0.5rem)
+);
+//styles
+$shadow: 0 5px 15px -5px;

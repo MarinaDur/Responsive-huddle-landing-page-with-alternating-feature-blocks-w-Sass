@@ -1,0 +1,27 @@
+//buttons
+.header__logo-btn-btn {
+  @include button($white-clr, $Very-Dark-Cyan);
+  box-shadow: $shadow $shadow-clr-grey;
+  @include transition();
+  &:hover {
+    color: $Grayish-Blue;
+  }
+}
+
+.btn-pink {
+  @include button($Pink, $white-clr);
+  box-shadow: $shadow $shadow-clr-pink;
+  width: 30rem;
+  justify-self: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  @include buttonHover();
+  @include transition();
+}
+
+.get-started-btn {
+  width: 25rem;
+  @include buttonHover();
+  @include transition();
+}
